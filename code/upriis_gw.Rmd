@@ -1,0 +1,55 @@
+---
+title: "UPRIIS Groundwater Abstraction"
+author: "Seth Nathaniel Linga"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: 
+    toc: true
+  html_document: default
+---
+
+# Hello World
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
+### *Italic*
+### **Bold**
+### ***Bold Italic***
+
+1. list item 1
+2. list item 2
+
+- bullet 1
+- bullet 2
+
+* bullet 1
+* bullet 2
+
+You can write whatever you want in here and when you click "knit" it will create or "knit" your HTML fle from the RMarkdown document you have.
+
+**You can also add links to your document:
+For example, [here is a link to my website](https://www.dawnirrigation.com/team)**
+
+```{r}
+# Hello World
+my_data <- cars
+my_data
+```
+
+Here is my next chunk of code. This is how you use the `plot()' function to create a scatterplot:
+cars is already amde into a dataframe
+plotting speed (x) as a function of distance (y)
+```{r}
+plot(my_data$speed ~ my_data$dist)
+```
+### Session Info:
+```{r}
+sessionInfo()
+```
+
+
+
+
